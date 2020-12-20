@@ -1,6 +1,6 @@
-text = input()
+S = input()
+n = int(input())
 
-N = int(input())
+result = [(S[i:i+n]) for i in range(0,len(S),n)]
 
-text.split("4")
-print(text)
+print(result)
